@@ -7,12 +7,12 @@ brew "curl"
 brew "git-lfs"
 brew "htop"
 brew "mas"
+brew "percona-toolkit"
 brew "wget"
 brew "homebrew/php/composer"
 brew "homebrew/php/php56"
 brew "homebrew/php/php56-intl"
 brew "homebrew/php/php56-mcrypt"
-brew "percona-toolkit"
 cask "calibre"
 cask "cyberduck"
 cask "docker"
@@ -22,7 +22,6 @@ cask "github-desktop"
 cask "google-chrome"
 cask "lastpass"
 cask "macupdate-desktop"
-cask "omnifocus"
 cask "onyx"
 cask "phpstorm"
 cask "postman"
@@ -34,7 +33,10 @@ cask "suspicious-package"
 cask "tunnelblick"
 cask "vlc"
 cask "yujitach-menumeters"
-mas "iMovie", id: 408981434
+mas "Affinity Photo", id: 824183456
+mas "GarageBand", id: 682658836
+mas "GrandPerspective", id: 1111570163
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
-mas "Affinity Photo", id: 24183456
+mas "OmniFocus", id: 867299399
+mas "Pages", id: 409201541
