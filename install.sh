@@ -11,7 +11,7 @@ command -v brew >/dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.gi
 
 (brew cask list | grep google-chrome) || brew cask install google-chrome
 
-(brew cask list | grep gitHub-desktop) || brew cask install gitHub-desktop
+(brew cask list | grep github-desktop) || brew cask install github-desktop
 
 (brew cask list | grep slack) || brew cask install slack
 
@@ -32,6 +32,9 @@ command -v brew >/dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.gi
 (brew cask list | grep docker) || brew cask install docker
 
 (brew cask list | grep firefox) || brew cask install firefox
+
+(brew cask list | grep lastpass) || brew cask install lastpass 
+
 
 
 
