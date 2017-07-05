@@ -56,4 +56,13 @@ command -v brew >/dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.gi
 ## Ajout de php
 (brew tap | grep homebrew/homebrew-php) || brew tap homebrew/homebrew-php
 
+(brew ls | grep htop ) || brew install htop
+(brew ls | grep wget ) || brew install wget
+(brew ls | grep curl ) || brew install curl
+(brew ls | grep awscli ) || brew install awscli
+(brew ls | grep php56 ) || brew install php56
+(brew ls | grep php56-intl ) || brew install php56-intl
+(brew ls | grep php56-mcrypt ) || brew install php56-mcrypt
+(brew ls | grep composer ) || brew install composer
+
 
