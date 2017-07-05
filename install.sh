@@ -65,5 +65,8 @@ command -v brew >/dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.gi
 (brew ls | grep php56-mcrypt ) || brew install php56-mcrypt
 (brew ls | grep composer ) || brew install composer
 (brew ls | grep git-lfs ) || brew install git-lfs
+(brew ls | grep percona-toolkit ) || brew install percona-toolkit
 
+## Ajout des App du store
+(brew ls | grep mas ) || brew install mas
 
