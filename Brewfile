@@ -7,9 +7,11 @@ brew "curl"
 brew "lame"
 brew "xvid"
 brew "ffmpeg"
+brew "git"
 brew "git-lfs"
+brew "bash-completion"
+brew "bash-git-prompt"
 brew "htop"
-brew "htop-osx"
 brew "mas"
 brew "percona-toolkit"
 brew "wallpaper"
@@ -63,3 +65,4 @@ mas "MediaInfo", id: 510620098
 mas "Numbers", id: 409203825
 mas "OmniFocus", id: 867299399
 mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
