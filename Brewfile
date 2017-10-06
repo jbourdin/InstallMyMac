@@ -7,10 +7,8 @@ brew "bash-completion"
 brew "bash-git-prompt"
 brew "curl"
 brew "lame"
-brew "git"
 brew "xvid"
 brew "ffmpeg"
-brew "git-lfs"
 brew "htop"
 brew "mas"
 brew "percona-toolkit"
@@ -58,7 +56,6 @@ mas "Epson Label Editor Lite", id: 702826021
 mas "Filters for Photos", id: 1083965373
 mas "GarageBand", id: 682658836
 mas "GrandPerspective", id: 1111570163
-mas "iMovie", id: 408981434
 mas "Intensify", id: 716854513
 mas "Keynote", id: 409183694
 mas "MediaInfo", id: 510620098
