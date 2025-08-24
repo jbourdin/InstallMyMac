@@ -13,7 +13,7 @@ brew "php"
 brew "composer"
 brew "gh"
 brew "opus"
-brew "handbrake"
+brew "handbrake", link: false
 brew "imagemagick"
 brew "jpeg"
 brew "jq"
