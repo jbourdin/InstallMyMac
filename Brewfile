@@ -2,7 +2,7 @@ tap "adoptopenjdk/openjdk"
 tap "apple/apple"
 tap "buo/cask-upgrade"
 tap "stripe/stripe-cli"
-brew "python@3.13"
+brew "openssl@3"
 brew "ansible"
 brew "giflib"
 brew "jpeg-turbo"
@@ -32,7 +32,9 @@ brew "pgbadger"
 brew "php@8.2"
 brew "pkgconf"
 brew "postgresql@14"
+brew "python@3.13"
 brew "rabbitmq-c"
+brew "rsync"
 brew "scw"
 brew "shellcheck"
 brew "shfmt"
@@ -64,6 +66,7 @@ cask "openemu"
 cask "pokemon-tcg-live"
 cask "porting-kit"
 cask "postman"
+cask "silentknight"
 cask "steam"
 cask "sweet-home3d"
 cask "the-unarchiver"
@@ -83,8 +86,9 @@ mas "GrandPerspective", id: 1111570163
 mas "iMovie", id: 408981434
 mas "Keepa - Price Tracker", id: 1533805339
 mas "Keynote", id: 409183694
+mas "Maccy", id: 1527619437
 mas "Numbers", id: 409203825
-mas "OmniFocus", id: 1346203938
+mas "OmniFocus", id: 1542143627
 mas "Pages", id: 409201541
 mas "RSS Button for Safari", id: 1437501942
 mas "Sequel Ace", id: 1518036000
