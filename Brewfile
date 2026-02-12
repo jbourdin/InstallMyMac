@@ -82,6 +82,8 @@ brew "yt-dlp"
 brew "stripe/stripe-cli/stripe"
 # E-books management software
 cask "calibre"
+# AI assistant from Anthropic
+cask "claude"
 # Color management tool for accurate monitor and printer calibration
 cask "ccstudio"
 # Server and cloud storage browser
