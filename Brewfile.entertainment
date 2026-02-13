@@ -1,0 +1,9 @@
+brew "handbrake"
+brew "yt-dlp"
+cask "calibre"
+cask "handbrake-app"
+cask "musescore"
+cask "vienna"
+mas "DaVinci Resolve", id: 571213070
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434

@@ -1,0 +1,7 @@
+cask "discord"
+cask "epic-games"
+cask "openemu"
+cask "pokemon-tcg-live"
+cask "porting-kit"
+cask "steam"
+mas "Star Realms", id: 1066107760
