@@ -44,7 +44,7 @@ brew "scw"
 brew "shellcheck"
 brew "shfmt"
 brew "symfony-cli"
-brew "terraform"
+brew "tfenv"
 brew "wget"
 brew "yarn"
 brew "gittower/tap/git-flow-next"
@@ -75,8 +75,11 @@ mas "Bitwarden", id: 1352778147
 mas "Blackmagic Disk Speed Test", id: 425264550
 mas "GrandPerspective", id: 1111570163
 mas "Keepa - Price Tracker", id: 1533805339
+mas "Keynote", id: 361285480
 mas "Maccy", id: 1527619437
+mas "Numbers", id: 361304891
 mas "OmniFocus", id: 1542143627
+mas "Pages", id: 361309726
 mas "RSS Button for Safari", id: 1437501942
 mas "Sequel Ace", id: 1518036000
 mas "Shut Up", id: 1015043880
