@@ -36,7 +36,8 @@ brew "pgbadger"
 brew "php@8.2"
 brew "php@8.3"
 brew "pkgconf"
-brew "postgresql@14"
+brew "postgresql@14", link: false
+brew "postgresql@18", link: true
 brew "python@3.12"
 brew "rabbitmq-c"
 brew "rsync"
@@ -44,7 +45,9 @@ brew "scw"
 brew "shellcheck"
 brew "shfmt"
 brew "symfony-cli"
+brew "terraform", link: false
 brew "tfenv"
+brew "tofuenv"
 brew "wget"
 brew "yarn"
 brew "gittower/tap/git-flow-next"
@@ -77,6 +80,7 @@ mas "GrandPerspective", id: 1111570163
 mas "Keepa - Price Tracker", id: 1533805339
 mas "Keynote", id: 361285480
 mas "Maccy", id: 1527619437
+mas "MediaInfo", id: 510620098
 mas "Numbers", id: 361304891
 mas "OmniFocus", id: 1542143627
 mas "Pages", id: 361309726
