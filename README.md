@@ -54,6 +54,19 @@ brew bundle check
 brew bundle dump --force
 ```
 
+## Post-install: unquarantine unsigned casks
+
+Some casks (e.g. `qlmarkdown`, `glance-chamburr`) are not code-signed or notarized. macOS Gatekeeper will block them until the quarantine flag is removed manually:
+
+```sh
+xattr -rd com.apple.quarantine /Applications/QLMarkdown.app
+xattr -rd com.apple.quarantine /Applications/Glance.app
+```
+
+Then launch the app once and enable the extension under **System Settings → General → Login Items & Extensions → Quick Look**.
+
+> **Note:** Homebrew will disable unsigned/unnotarized casks from its official repository on 2026-09-01. Apps already installed will keep working; updates will need to come from third-party taps or signed releases.
+
 ## Prerequisites
 
 - macOS
